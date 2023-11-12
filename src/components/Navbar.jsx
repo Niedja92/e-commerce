@@ -1,8 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Navbar = () => {
+const components = () => {
   return (
-    <div>Navbar</div>
+    <nav className="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      {/* Conteúdo da barra de navegação */}
+    </nav>
   )
-}
-
+};
 export default Navbar

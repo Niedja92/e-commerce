@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Navbar from "./components/Navbar"
 
+
 function App() {
 
   return (
@@ -14,5 +15,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
